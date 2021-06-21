@@ -1,4 +1,8 @@
-Welcome to the HTML, CSS, and JavaScript template.
+Welcome to my very red template.
+
+This is just intended to demo a community template. It's the same as the HTML/CSS template, but red.
+
+------
 
 There are three main files in action here, all in the `src/` folder:
 

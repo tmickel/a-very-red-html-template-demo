@@ -1,7 +1,7 @@
 const canvas = document.getElementById("square");
 const ctx = canvas.getContext('2d');
 
-let hue = 0;
+let s = 0;
 const degToRad = (deg) => deg * Math.PI / 180;
 
 const draw = () => {
@@ -11,8 +11,8 @@ const draw = () => {
     ctx.rotate(degToRad(2));
     ctx.translate(-75, -75);
 
-    ctx.fillStyle = `hsl(${hue}, 100%, 50%)`;
-    hue = (hue + 1) % 360;
+    ctx.fillStyle = `hsl(0, ${s}%, 50%)`;
+    s = (s + 1) % 100;
 
     ctx.fillRect(50, 50, 50, 50);
 
